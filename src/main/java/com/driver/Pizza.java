@@ -83,6 +83,7 @@ public class Pizza {
                this.bill += "Paperbag Added: "+this.takeawayPrice+"\n";
            }
            this.bill += "Total Price: "+this.price+"\n";
+           isbilladed = true;
        }
         return this.bill;
     }
